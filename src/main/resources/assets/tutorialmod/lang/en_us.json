@@ -2,5 +2,6 @@
   "item.tutorialmod.globuole_ball": "Globuole",
   "item.tutorialmod.globuole_ball_infected": "Infected Globuole",
 
-  "block.tutorialmod.globuole_block": "Globuole Block"
+  "block.tutorialmod.globuole_block": "Globuole Block",
+  "block.tutorialmod.infected_globuole_block": "Infected Globuole Block"
 }
