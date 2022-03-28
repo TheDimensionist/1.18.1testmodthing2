@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:infected_globuole_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:globuole_ball_infected",
+    "count": 9
+  }
+}

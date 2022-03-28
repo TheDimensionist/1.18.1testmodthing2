@@ -13,7 +13,7 @@ public class ModItems {
             new Item(new FabricItemSettings().fireproof().group(ModItemGroup.GLOBUOLES)));
 
     public static final Item GLOBUOLE_BALL_INFECTED = registerItem("globuole_ball_infected",
-            new Item(new FabricItemSettings().group(ModItemGroup.GLOBUOLES).maxCount(7)));
+            new Item(new FabricItemSettings().group(ModItemGroup.GLOBUOLES).maxCount(9)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);

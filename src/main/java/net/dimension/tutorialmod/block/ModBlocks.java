@@ -21,8 +21,8 @@ public class ModBlocks {
             ModItemGroup.GLOBUOLES);
 
     public static final Block INFECTED_GLOBUOLE_BLOCK =registerBlock("infected_globuole_block",
-            new Block(FabricBlockSettings.of(Material.METAL).breakInstantly().jumpVelocityMultiplier(8).breakByHand(true).luminance(15).slipperiness(2)),
-            ModItemGroup.GLOBUOLES);
+            new Block(FabricBlockSettings.of(Material.METAL).breakInstantly().jumpVelocityMultiplier(2).breakByHand(true)
+                    .luminance(15).slipperiness((float) 1.2)), ModItemGroup.GLOBUOLES);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
